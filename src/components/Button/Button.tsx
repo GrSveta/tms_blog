@@ -1,4 +1,4 @@
-import React from 'react'
+//import React from 'react'
 import'./Button.css'
 
 type BtnProps = {
@@ -14,8 +14,9 @@ type BtnProps = {
     return( 
       <button type='button' onClick= {onClick} className = {className} disabled = {disabled}
       >
-        {text}
         {icon && <img  className='imgOfBtn' src={icon}/>}
+        {text}
+        
       </button>
     )
  }
