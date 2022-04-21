@@ -2,21 +2,21 @@
 import React from 'react';
 import{Button} from './components/Button/Button'
 
-import bookmark from './components/img_logo/bookmark.png'
-import dislike from './components/img_logo/dislike.png'
-import like from './components/img_logo/like.png'
+import bookmark from './components/img_logo/bookmark.svg'
+import dislike from './components/img_logo/dislike.svg'
+import like from './components/img_logo/like.svg'
 
 
 
 function App() {
   return ( <div className='App'>
-          <Button disabled={false} text='Primary' className='primary' onClick={() => 1} />
-          <Button disabled={false} text='Secondary' className='secondary' onClick={() => 1}/>
-          <Button disabled={false} text='Secondary 2' className='secondary2' onClick={() => 1}/>
+          <Button disabled={false} text='Primary' className='primary' onClick={() => console.log('Text')} />
+          <Button disabled={false} text='Secondary' className='secondary' onClick={() => console.log('Text')}/>
+          <Button disabled={false} text='Secondary 2' className='secondary2' onClick={() => console.log('Text')}/>
 
-          <Button disabled={false} text=' Button with icon' className='ButtonWithIcon' onClick={() => 1} icon={bookmark}/>
-          <Button disabled={false} className='like' onClick={() => 1} icon={dislike}/>
-          <Button disabled={false} className='dislike' onClick={() => 1}  icon={like}/>
+          <Button disabled={false} text=' Button with icon' className='ButtonWithIcon' onClick={() => console.log('Text')} icon={bookmark}/>
+          <Button disabled={false} className='like' onClick={() => console.log('Text')} icon={dislike}/>
+          <Button disabled={false} className='dislike' onClick={() => console.log('Text')}  icon={like}/>
 
   </div>
   
