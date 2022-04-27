@@ -1,7 +1,7 @@
 * {
     border: none;
 }
-.primary, .secondary, .secondary2, .ButtonWithIcon, .like, .dislike {
+.btn-generalStyle {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -12,7 +12,7 @@
     font-size: 18px;
     line-height: 24px;
 }
-.primary{
+.btn-primary{
     width: 132px;
     height: 56px;
     left: 3576px;
@@ -22,11 +22,11 @@
     border-radius: 2px;
 
 }
-.primary:hover {
+.btn-primary:hover {
     background: #5360CD;
     border-radius: 2px;
 }
-.secondary{
+.btn-secondary{
     width: 159px;
     height: 56px;
     left: 3748px;
@@ -36,11 +36,11 @@
     color: #313037;
 }
 
-.secondary:hover {
+.btn-secondary:hover {
     background: #DADADA;
     border-radius: 2px;
 }
-.secondary2{
+.btn-secondary2{
     width: 174px;
     height: 56px;
     left: 3947px;
@@ -49,12 +49,12 @@
 
     color: #FD3419;
 }
-.secondary2:hover {
+.btn-secondary2:hover {
     border: 1px solid #DADADA;
     box-sizing: border-box;
     border-radius: 2px;
 }
-.ButtonWithIcon{
+.btn-ButtonWithIcon{
     background: #e8e8e8;
     border-radius: 2px;
     color: #313037;
@@ -63,7 +63,7 @@
     align-items: center;
 
 }
-.ButtonWithIcon img {
+.btn-ButtonWithIcon img {
     padding: 0 5px;
     left: 16.67%;
     right: 16.67%;
@@ -71,15 +71,15 @@
     bottom: 8.33%;
 
 }
-.ButtonWithIcon:hover{
+.btn-ButtonWithIcon:hover{
     background: #5360CD;
     border-radius: 2px;
     color: white;
 }
-.ButtonWithIcon:hover img{
+.btn-ButtonWithIcon:hover img{
     filter: brightness(0) invert(1);
 }
-.like{   
+.btn-like{   
     width: 88px;
     height: 56px;
     left: 4570px;
@@ -87,16 +87,16 @@
     background: #E8E8E8;
     border-radius: 2px;
 }
-.like img{
+.btn-like img{
     left: 4.17%;
     right: 5.49%;
     top: 4.17%;
     bottom: 4.17%;
 }
-.like:hover img {
+.btn-like:hover img {
     filter: brightness(0) invert(1);
 }
-.dislike{
+.btn-dislike{
     width: 88px;
     height: 56px;
     left: 4442px;
@@ -105,21 +105,21 @@
     background: #E8E8E8;
     border-radius: 2px;
 }
-.like:hover {
+.btn-like:hover {
     background: #5360CD;
     border-radius: 2px;
 }
-.dislike img{
+.btn-dislike img{
     left: 4.17%;
     right: 5.49%;
     top: 4.17%;
     bottom: 4.16%;
 }
-.dislike:hover {
+.btn-dislike:hover {
     background: #FD3419;
     border-radius: 2px;
 }
-.dislike:hover img{
+.btn-dislike:hover img{
     filter: brightness(0) invert(1);
 }
 
