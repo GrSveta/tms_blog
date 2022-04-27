@@ -1,0 +1,40 @@
+.generalInput{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 544px;
+    height: 120px;
+    
+}
+.textOfError-fontSize{
+    font-size: 16px;
+    line-height: 20px;
+}
+.textOfError-color {
+    color: #FD3419;
+}
+.generalInputlabel {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #313037;
+
+}
+.inputForm, .error {
+    height: 56px;
+    width: 544px;
+    left: 124px;
+    top: 491px;
+    
+}
+
+.inputForm:active {
+    background: #FFFFFF;
+}
+.inputForm:focus {
+    background: #FFFFFF;
+    border: 2px solid #DADADA;
+    border-radius: 2px;
+}
