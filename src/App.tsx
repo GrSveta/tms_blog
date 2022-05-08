@@ -5,10 +5,10 @@ import { Input } from './components/inputs/input'
 
 function App () {
   return (<div className='App'>
-    <Input type="Text" className="allInput"  placeholder="Enter Text" ></Input>
+    <Input type="Text" className='generalInput__inputForm'  placeholder="Enter Text" ></Input>
     <div className='inputsPasswordMeil'>
-    <Input type="Password"  className="allInput" placeholder="Enter Password"></Input>
-    <Input type="E-mail" className="allInput" placeholder="Enter E-mail"></Input>
+    <Input type="Password"  className='generalInput__inputForm' placeholder="Enter Password"></Input>
+    <Input type="E-mail" className='generalInput__inputForm' placeholder="Enter E-mail"></Input>
     </div>
     </div>
   );
