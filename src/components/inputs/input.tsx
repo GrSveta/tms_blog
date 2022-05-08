@@ -48,7 +48,7 @@ export const Input =(props:InputProprs)=>{
     return(
 <div className="generalInput">
     <label className="generalInput__label">{props.type}</label>
-    <input  
+    <input className='generalInput__inputForm'
            type={props.type} 
            onChange={handleChange} 
            disabled={props.disabled} 
