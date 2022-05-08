@@ -13,7 +13,7 @@
 .textOfError-color {
     color: #FD3419;
 }
-.generalInputlabel {
+.generalInput__label {
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
@@ -22,19 +22,28 @@
     color: #313037;
 
 }
-.inputForm, .error {
+.generalInput__inputForm{
     height: 56px;
     width: 544px;
     left: 124px;
     top: 491px;
-    
+    border-radius: 2px;
+    border:none;
 }
 
-.inputForm:active {
+.generalInput__inputForm:active {
     background: #FFFFFF;
+    outline-color: none;
 }
-.inputForm:focus {
+.generalInput__inputForm:focus {
     background: #FFFFFF;
-    border: 2px solid #DADADA;
-    border-radius: 2px;
+    outline-color: #DADADA;
+
+}
+.generalInput__inputForm:disabled {
+    background: #E8E8E8;
+    outline-color: #DADADA;
+}
+.error, .error:focus{
+    border: 2px solid #FD3419;
 }
